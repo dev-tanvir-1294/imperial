@@ -1,0 +1,42 @@
+
+
+.footer {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 5rem;
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        align-items: start;
+        padding: 0 20px;
+    }
+    
+}
+
+.footer h4{
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.footer h4:hover{
+    color: rgb(50, 166, 229);
+}
+
+.footer li{
+    font-size: 1.2rem;
+}
+
+.footer li:hover{
+    color: rgb(88, 138, 225);
+    text-decoration: underline;
+    cursor: pointer;
+    
+}
+
