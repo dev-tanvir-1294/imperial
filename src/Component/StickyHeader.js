@@ -6,8 +6,8 @@ import Header from './Header'
 
 import React from 'react'
 
-//import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-//import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 
 
 
@@ -33,7 +33,11 @@ function StickyHeader() {
         </div>
 
         
-        
+        <div className="flex justify-center items-center text-black gap-4 dark:text-white">
+            <h1> Cart</h1>
+            <FontAwesomeIcon icon={faShoppingCart} size="2x" />
+       </div>
+
         
 
         
